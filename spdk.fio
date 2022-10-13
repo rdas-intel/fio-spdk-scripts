@@ -1,0 +1,15 @@
+[global]
+ioengine=spdk
+thread=1
+group_reporting=1
+direct=1
+verify=0
+#time_based=1
+#iodepth=128
+#rw=read
+#rw=randread
+#size=1G
+[test]
+numjobs=1
+filename=${SPDK_FILE_NAME}
+
